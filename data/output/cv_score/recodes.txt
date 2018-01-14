@@ -26,7 +26,29 @@ max_depth=8     0.951824
 max_depth=9     0.9520904
 max_depth=10    0.9520252
 
+act_type_last+act_type_first+time_gap_stat+time_gap_last+time_gap_first+time_gap_last123_stat+dist+time_gap_all_type+time_gap_seq_stat+type_num_rate    0.953405
+order_num+pos_num+pos_rate      0.9535592
+userid      0.9538972
 
+time_gap_last   0.9538032 (drop)
+ord_type_last   0.9534562 (drop)
+ord_time_gap_last123    0.9538614 (drop)
+ord_type_last123_stat   0.9536672 (drop)
+ord_time_gap_seq_stat   0.9535282 (drop)
 
+continent_num   0.9539968
+country_num     0.9542674
+city_num    0.9542726
+
+gender      0.9545238
+
+comment_num     0.9557162
+rating      0.9561234
+
+time_gap_gap_seq_stat   0.9574972
+time_stat   0.9575696
+time_stat_gb_uid_type   0.9584868
+
+action_sort     0.9585918
 
 ########################################################################################################################################
