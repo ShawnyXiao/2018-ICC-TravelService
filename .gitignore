@@ -1,4 +1,5 @@
 .idea
 data/input
 data/output/sub
+data/output/feat
 src/.ipynb_checkpoints
