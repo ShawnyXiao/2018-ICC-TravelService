@@ -1,5 +1,7 @@
 .idea
-data/input
+data/input/test
+data/input/train
 data/output/sub
 data/output/feat
+data/output/feat_imp
 src/.ipynb_checkpoints
