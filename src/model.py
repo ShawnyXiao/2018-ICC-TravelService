@@ -385,25 +385,6 @@ params_lgb = {
 }
 
 
-# In[9]:
-
-params_lgb = {
-    'boosting_type': 'gbdt',
-    'objective': 'binary',
-    'metric': 'auc',
-    'min_child_weight': 1.5,
-    'num_leaves': 2**5,
-    'lambda_l2': 10,
-    'subsample': 0.7,
-    'colsample_bytree': 0.5,
-    'colsample_bylevel': 0.5,
-    'learning_rate': 0.01,
-    'seed': 2017,
-    'nthread': 12,
-    'silent': True,
-}
-
-
 # In[10]:
 
 iterations, best_score = lgb_cv(train_feature, train_label, params_lgb, config['folds'], config['rounds'])
